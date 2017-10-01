@@ -17,8 +17,8 @@ app.config['MYSQL_DATABASE_PASSWORD'] = os.environ.get('DB_PASSWORD')
 app.config['MYSQL_DATABASE_DB'] = os.environ.get('DB_SCHEMA')
 mysql.init_app(app)
 
-CHANNEL_ACCESS_TOKEN = os.environ.get('CHANNEL_ACCESS_TOKEN')
-CHANNEL_SECRET = os.environ.get('CHANNEL_SECRET')
+CHANNEL_ACCESS_TOKEN = os.environ.get('Renikv7AVXUcdHSeAlAISUTMMIi/pnGSDccD7jWL7vMWOUE75iBF/6rPQNuj3iWjoWfCTAIncsIdwzFq/Oy9RC5shrlPbgOR271tDSVRDbnmHzGA8CyS4pLBEuHjSzaKSxiIwv5ULvfNuajDzTa0CQdB04t89/1O/w1cDnyilFU=')
+CHANNEL_SECRET = os.environ.get('4f0930a748a24428e8b089842d6f5c6d')
 
 line_bot_api = LineBotApi(CHANNEL_ACCESS_TOKEN)
 handler = WebhookHandler(CHANNEL_SECRET)
